@@ -38,4 +38,5 @@ DISTFILES +=
 RESOURCES += \
     lolo.qrc \
     lol.qrc \
-    lus.qrc
+    lus.qrc \
+    krestus.qrc

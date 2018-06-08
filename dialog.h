@@ -17,8 +17,11 @@ public:
 
 private:
     Ui::Dialog *ui;
+private slots:
+    void krest01();
 
 
+    void nol01();
 
 };
 
