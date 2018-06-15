@@ -15,7 +15,11 @@ class Dialog : public QDialog
 public:
     explicit Dialog(QWidget *parent = 0);
     ~Dialog();
-     void play(bool gamer);
+    bool gamer=false;
+    void play(bool gamer);
+
+
+
 
 
 
@@ -24,7 +28,8 @@ private:
 
     Ui::Dialog *ui;
 
-private slots:
+public slots:
+    void turn();
     void krest_drow();
     void nol_drow();
 
